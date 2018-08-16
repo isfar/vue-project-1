@@ -83,5 +83,7 @@ export default {
 </script>
 
 <style>
-
+    th {
+        cursor: pointer;
+    }
 </style>
