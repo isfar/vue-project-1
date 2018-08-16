@@ -4,7 +4,9 @@
     <button @click="currentComponent='companyTable'"> Comapnies </button>
     <button @click="currentComponent='userTable'"> Users </button>
   </div>
-  <component :is="currentComponent"></component>
+  <keep-alive>
+    <component :is="currentComponent"></component>
+  </keep-alive>
 </div>
 </template>
 
